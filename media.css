@@ -1,0 +1,267 @@
+@media screen and (max-width: 1024px) { /*Consider all the values taking the screen size 991px */
+    nav{
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .secondVertical {
+        margin: 0 50px;
+      }
+    .thirdVertical {
+        margin: 0 130px;
+      }
+    .fourthVertical {
+        margin: 0 130px;
+      }
+    .fifthVertical {
+        margin: 0 130px;
+      }
+    .testimonials{
+        height: 70vh;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .testimonial-col{
+        width: 70vw;
+    }
+    .testimonial-col p{
+        width: 50vw;
+        font-size: 12px;
+    }
+    .testimonial-col h2{
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width: 1436px){ /*Consider all the values taking the screen size 767px */
+    .left-nav {
+        margin-top: 3px;
+      }
+    nav ul li {
+        margin: 10px 10px;
+      }
+    .right-nav ul li a {
+        font-size: 15px;
+      }
+    nav ul li a:hover{
+        color: rgb(153, 153, 226);
+        font-size: 1rem;
+    }
+    .left-nav {
+        font-size: 1.5rem;
+      }
+    .leftSection{
+        font-size: 2rem;
+    }
+    .btn{
+        border-radius: 6px;
+        font-size: 13px;
+        padding: 10px;
+        transition: 1s ease-in-out;
+    }
+    .btn:hover{
+        font-size: 15px;
+    }
+    .buttons{
+        margin-top: 10px;
+    }
+    .firstSection{
+        height: 310px;
+    }
+    .rightSection img{
+        width: 170px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .text-gray{
+        font-size: 14px;
+    }
+    .secondVertical{
+        margin: 0 auto;
+    }
+    .thirdVertical{
+        margin: 0 auto;
+    }
+    .fourthVertical{
+        margin: 0 auto;
+    }
+    .fifthVertical{
+        margin: 0 auto;
+    }
+    .vertical-title{
+        font-size: 13px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .testimonial-col{
+        width: 70vw;
+    }
+    .testimonial-col p{
+        width: 50vw;
+        font-size: 12px;
+    }
+    .testimonial-col h2{
+        font-size: 20px;
+    }
+    .footer-second input, .footer-second textarea{
+        width: 60vw;
+    }
+}
+ @media screen and (max-width: 480px){ /*Consider nav and firstSection takin the screen size 390px(realme x7 max) */
+    .left-nav {
+        margin-top: 3px;
+      }
+    nav ul li {
+        margin: 5px 5px;
+      }
+    .right-nav ul li a {
+        font-size: 9px;
+      }
+    nav ul li a:hover{
+        color: rgb(153, 153, 226);
+        font-size: 0.8rem;
+    }
+    .left-nav {
+        font-size: 1.2rem;
+      }
+    /* .nav-toggle{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    .nav-toggle:hover{
+        color: rgb(153, 153, 226);
+    }
+    nav .right-nav ul{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .right-nav{
+        position: absolute;
+        background-color: rgb(0, 0,33);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    } */
+    .firstSection:hover{
+        flex-direction: column-reverse;
+        gap: 23px;
+    }
+    .leftSection{
+        font-size: 1.3rem;
+    }
+    .btn{
+        border-radius: 6px;
+        font-size: 9px;
+        padding: 10px;
+        transition: 1s ease-in-out;
+    }
+    .btn:hover{
+        font-size: 12px;
+    }
+    .buttons{
+        margin-top: 10px;
+    }
+    .firstSection{
+        height: 325px;
+    }
+    .rightSection img{
+        width: 140px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .text-gray{
+        font-size: 14px;
+    }
+    main hr{
+        margin: 40px 30px;
+    }
+    .box{
+        height: 60vh;
+        width: 2px;
+        flex-direction: column;
+    }
+    .secondSection{
+        height: 90vh;
+    }
+    .secondVertical{
+        width: 93px;
+        height: 1px;
+        margin: 30px 0;
+    }
+    .image-top{
+        top: -10px;
+        left: -27px;
+    }
+    .vertical-title{
+        top:-36px;
+        right: -110px;
+        font-size: 12px;
+    }
+    .thirdSection{
+        height: 90vh;
+    }
+    .thirdVertical{
+        width: 93px;
+        height: 1px;
+        margin: 70px 0;
+    }
+    .vertical-desc{
+        top: -27px;
+        right: -110px;
+        font-size: 10px;
+    }
+    .fourthSection{
+        height: 90vh;
+    }
+    .fourthVertical{
+        width: 93px;
+        height: 1px;
+        margin: 70px 0;
+    }
+    .fifthSection{
+        height: 80vh;
+    }
+    .fifthVertical{
+        width: 93px;
+        height: 1px;
+        margin: 70px 0;
+    }
+    .testimonials{
+        height: 80vh;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .testimonial-col{
+        width: 70vw;
+    }
+    .testimonial-col p{
+        width: 50vw;
+        font-size: 10px;
+    }
+    .testimonial-col h2{
+        font-size: 15px;
+    }
+    .footer{
+        padding: 23px 27px;
+    }
+    .footer-second input, .footer-second textarea{
+        width: 99%;
+    }
+    footer .footer-text{
+        font-size: 12px;
+    }
+
+}
